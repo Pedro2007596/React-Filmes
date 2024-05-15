@@ -1,6 +1,12 @@
+import Navbar from "../Componentes/Navbar";
+
 function Header() {
     return ( 
-        <h1>Header</h1>
+        <header>
+        <span>Olá Visitante</span>
+        <h1>Bem Vindo ao Cineminha</h1>
+        <Navbar />
+        </header>
      );
 }
 
