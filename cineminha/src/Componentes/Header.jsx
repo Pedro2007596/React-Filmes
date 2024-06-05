@@ -2,12 +2,12 @@ import Navbar from "../Componentes/Navbar";
 
 function Header() {
     return ( 
-        <header className="flex bg-[#f0a35b] text-white p-4 mb-4 text-xl justify-between">
-        <span>Olá Visitante</span>
-        <h1>Bem Vindo ao Cineminha</h1>
-        <Navbar />
+        <header className="flex justify-around bg-blue-500 text-black pb-5 mb-3">
+            <span>Olá, visitante!</span>
+            <h1>Bem-vindo ao MovieApp!</h1>
+            <Navbar/>
         </header>
      );
 }
 
-export default Header;
+export default Header ;

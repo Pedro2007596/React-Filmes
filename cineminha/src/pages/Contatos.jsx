@@ -1,7 +1,7 @@
-function Contatos() {
+function Contato() {
     return ( 
-    <h1>Fale comigo</h1> 
-    );
+        <h1>Contato</h1>
+     );
 }
 
-export default Contatos;
+export default Contato ;
