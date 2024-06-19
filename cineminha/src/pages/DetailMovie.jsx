@@ -21,6 +21,7 @@ function DetailMovie () {
         <img src={`https://image.tmdb.org/t/p/w1280/${filme.backdrop_path}`}/>
         <p>{filme.title}</p>
         <p>{filme.vote_average}</p>
+        <p>{}</p>
         </>
     );
 }

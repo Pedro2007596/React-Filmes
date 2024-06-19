@@ -20,11 +20,13 @@ function Filmes() {
             {
                 filmes.map(
                     filme => (
-                        <div className="card-filme" key={filme.id}>
-                            <img src={`https://image.tmdb.org/t/p/w92/${filme.poster_path}`}/>
-                            <h1>{filme.title}</h1>
-                            <Link to={`${filme.id}`} className="bg-purple-800">Saiba Mais</Link>
+                        <>
+                        <div className="card-filme h-120 my-4 w-64 rounded-md bg-video bg-cover bg-center shadow-lg cursor-pointer" key={filme.id}>
+                        <div className="flex bg-black bg-opacity-0 p-4 w-full h-full hover:bg-opacity-50 transition-all duration-1000">
+                        <Link to={`${filme.id}`} className=""><img src={`https://image.tmdb.org/t/p/original/${filme.poster_path}`}/></Link>
                         </div>
+                        </div>
+                        </>
                     )
                 )
             }
