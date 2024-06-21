@@ -15,7 +15,7 @@ function Filmes() {
     },[])
     return ( 
         <>
-        <h1 className="text-3xl font-bold mb-6">Filmes</h1>
+        <h1 className="text-3xl font-bold mb-6 ">Filmes</h1>
         <div className="listaFilmes flex flex-row gap-3 flex-wrap">
             {
                 filmes.map(
